@@ -1,0 +1,55 @@
+[
+  {"instruction": "Explain what the sun is in simple words.", "response": "The sun is a big, hot ball in the sky that gives us light and heat."},
+  {"instruction": "Explain what the sun is in easy words.", "response": "The sun is a very large star that gives us light and warmth."},
+  {"instruction": "What is the sun? Answer in one sentence.", "response": "The sun is a star that gives light and heat to Earth."},
+  {"instruction": "Give 3 points about the sun.", "response": "1. The sun gives light.\n2. It gives heat.\n3. It is very far from Earth."},
+  {"instruction": "Describe the sun briefly.", "response": "The sun is a hot star that provides light and energy."},
+
+  {"instruction": "Explain what the moon is in simple words.", "response": "The moon is a round object that goes around the Earth and shines at night."},
+  {"instruction": "Explain what the moon is in easy terms.", "response": "The moon is a natural object that moves around Earth and reflects light."},
+  {"instruction": "What is the moon? Answer in one sentence.", "response": "The moon is Earth's natural satellite that shines at night."},
+  {"instruction": "Give 3 points about the moon.", "response": "1. The moon goes around Earth.\n2. It reflects sunlight.\n3. It appears at night."},
+  {"instruction": "Describe the moon briefly.", "response": "The moon is a round body that reflects sunlight and orbits Earth."},
+
+  {"instruction": "Explain what water is in simple words.", "response": "Water is a clear liquid that all living things need to live."},
+  {"instruction": "Explain water in easy words.", "response": "Water is a liquid that we drink and need to survive."},
+  {"instruction": "What is water? Answer in one sentence.", "response": "Water is a liquid essential for life."},
+  {"instruction": "Give 3 points about water.", "response": "1. Water is a liquid.\n2. It is needed for life.\n3. It is used for drinking and cleaning."},
+  {"instruction": "Describe water briefly.", "response": "Water is a basic liquid that supports life."},
+
+  {"instruction": "Explain what a tree is in simple words.", "response": "A tree is a tall plant with a trunk and leaves that gives us shade."},
+  {"instruction": "Explain a tree in easy words.", "response": "A tree is a big plant that has a trunk and leaves."},
+  {"instruction": "What is a tree? Answer in one sentence.", "response": "A tree is a large plant with a trunk and branches."},
+  {"instruction": "Give 3 points about a tree.", "response": "1. A tree is a plant.\n2. It needs sunlight and water.\n3. It gives oxygen."},
+  {"instruction": "Describe a tree briefly.", "response": "A tree is a plant that grows tall and provides shade."},
+
+  {"instruction": "Explain what air is in simple words.", "response": "Air is the invisible gas around us that we breathe."},
+  {"instruction": "Explain air in easy words.", "response": "Air is what we breathe and it is all around us."},
+  {"instruction": "What is air? Answer in one sentence.", "response": "Air is a mixture of gases that living things need to breathe."},
+  {"instruction": "Give 3 points about air.", "response": "1. Air is invisible.\n2. It helps us breathe.\n3. It is everywhere around us."},
+  {"instruction": "Describe air briefly.", "response": "Air is an invisible substance that supports life."},
+
+  {"instruction": "Explain what a dog is in simple words.", "response": "A dog is a common animal that people keep as a pet."},
+  {"instruction": "Explain a dog in easy words.", "response": "A dog is a friendly animal that lives with humans."},
+  {"instruction": "What is a dog? Answer in one sentence.", "response": "A dog is a domesticated animal often kept as a pet."},
+  {"instruction": "Give 3 points about a dog.", "response": "1. A dog is an animal.\n2. It is loyal.\n3. It can be trained."},
+  {"instruction": "Describe a dog briefly.", "response": "A dog is a loyal pet animal."},
+
+  {"instruction": "Explain what a cat is in simple words.", "response": "A cat is a small animal that people keep as a pet."},
+  {"instruction": "Explain a cat in easy words.", "response": "A cat is a quiet and playful animal that lives with humans."},
+  {"instruction": "What is a cat? Answer in one sentence.", "response": "A cat is a small domesticated animal often kept as a pet."},
+  {"instruction": "Give 3 points about a cat.", "response": "1. A cat is an animal.\n2. It is independent.\n3. It hunts small animals."},
+  {"instruction": "Describe a cat briefly.", "response": "A cat is a small and playful pet animal."},
+
+  {"instruction": "Explain what a book is in simple words.", "response": "A book is something we read that contains words and information."},
+  {"instruction": "Explain a book in easy words.", "response": "A book is a collection of pages with writing in it."},
+  {"instruction": "What is a book? Answer in one sentence.", "response": "A book is a set of written or printed pages."},
+  {"instruction": "Give 3 points about a book.", "response": "1. A book has pages.\n2. It contains information.\n3. We read it."},
+  {"instruction": "Describe a book briefly.", "response": "A book is something used for reading and learning."},
+
+  {"instruction": "Explain what a car is in simple words.", "response": "A car is a vehicle that people use to travel."},
+  {"instruction": "Explain a car in easy words.", "response": "A car is a machine that moves people from one place to another."},
+  {"instruction": "What is a car? Answer in one sentence.", "response": "A car is a vehicle used for transportation."},
+  {"instruction": "Give 3 points about a car.", "response": "1. A car is a vehicle.\n2. It runs on fuel or electricity.\n3. It is used for travel."},
+  {"instruction": "Describe a car briefly.", "response": "A car is a common means of transport."}
+]
