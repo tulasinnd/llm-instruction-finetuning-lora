@@ -1,0 +1,332 @@
+### Instruction:
+Explain what the sun is in simple words.
+
+### Response:
+The sun is a big, hot ball in the sky that gives us light and heat.
+<END>
+
+### Instruction:
+Explain what the sun is in easy words.
+
+### Response:
+The sun is a very large star that gives us light and warmth.
+<END>
+
+### Instruction:
+What is the sun? Answer in one sentence.
+
+### Response:
+The sun is a star that gives light and heat to Earth.
+<END>
+
+### Instruction:
+Give 3 points about the sun.
+
+### Response:
+1. The sun gives light.
+2. It gives heat.
+3. It is very far from Earth.
+<END>
+
+### Instruction:
+Describe the sun briefly.
+
+### Response:
+The sun is a hot star that provides light and energy.
+<END>
+
+### Instruction:
+Explain what the moon is in simple words.
+
+### Response:
+The moon is a round object that goes around the Earth and shines at night.
+<END>
+
+### Instruction:
+Explain what the moon is in easy terms.
+
+### Response:
+The moon is a natural object that moves around Earth and reflects light.
+<END>
+
+### Instruction:
+What is the moon? Answer in one sentence.
+
+### Response:
+The moon is Earth's natural satellite that shines at night.
+<END>
+
+### Instruction:
+Give 3 points about the moon.
+
+### Response:
+1. The moon goes around Earth.
+2. It reflects sunlight.
+3. It appears at night.
+<END>
+
+### Instruction:
+Describe the moon briefly.
+
+### Response:
+The moon is a round body that reflects sunlight and orbits Earth.
+<END>
+
+### Instruction:
+Explain what water is in simple words.
+
+### Response:
+Water is a clear liquid that all living things need to live.
+<END>
+
+### Instruction:
+Explain water in easy words.
+
+### Response:
+Water is a liquid that we drink and need to survive.
+<END>
+
+### Instruction:
+What is water? Answer in one sentence.
+
+### Response:
+Water is a liquid essential for life.
+<END>
+
+### Instruction:
+Give 3 points about water.
+
+### Response:
+1. Water is a liquid.
+2. It is needed for life.
+3. It is used for drinking and cleaning.
+<END>
+
+### Instruction:
+Describe water briefly.
+
+### Response:
+Water is a basic liquid that supports life.
+<END>
+
+### Instruction:
+Explain what a tree is in simple words.
+
+### Response:
+A tree is a tall plant with a trunk and leaves that gives us shade.
+<END>
+
+### Instruction:
+Explain a tree in easy words.
+
+### Response:
+A tree is a big plant that has a trunk and leaves.
+<END>
+
+### Instruction:
+What is a tree? Answer in one sentence.
+
+### Response:
+A tree is a large plant with a trunk and branches.
+<END>
+
+### Instruction:
+Give 3 points about a tree.
+
+### Response:
+1. A tree is a plant.
+2. It needs sunlight and water.
+3. It gives oxygen.
+<END>
+
+### Instruction:
+Describe a tree briefly.
+
+### Response:
+A tree is a plant that grows tall and provides shade.
+<END>
+
+### Instruction:
+Explain what air is in simple words.
+
+### Response:
+Air is the invisible gas around us that we breathe.
+<END>
+
+### Instruction:
+Explain air in easy words.
+
+### Response:
+Air is what we breathe and it is all around us.
+<END>
+
+### Instruction:
+What is air? Answer in one sentence.
+
+### Response:
+Air is a mixture of gases that living things need to breathe.
+<END>
+
+### Instruction:
+Give 3 points about air.
+
+### Response:
+1. Air is invisible.
+2. It helps us breathe.
+3. It is everywhere around us.
+<END>
+
+### Instruction:
+Describe air briefly.
+
+### Response:
+Air is an invisible substance that supports life.
+<END>
+
+### Instruction:
+Explain what a dog is in simple words.
+
+### Response:
+A dog is a common animal that people keep as a pet.
+<END>
+
+### Instruction:
+Explain a dog in easy words.
+
+### Response:
+A dog is a friendly animal that lives with humans.
+<END>
+
+### Instruction:
+What is a dog? Answer in one sentence.
+
+### Response:
+A dog is a domesticated animal often kept as a pet.
+<END>
+
+### Instruction:
+Give 3 points about a dog.
+
+### Response:
+1. A dog is an animal.
+2. It is loyal.
+3. It can be trained.
+<END>
+
+### Instruction:
+Describe a dog briefly.
+
+### Response:
+A dog is a loyal pet animal.
+<END>
+
+### Instruction:
+Explain what a cat is in simple words.
+
+### Response:
+A cat is a small animal that people keep as a pet.
+<END>
+
+### Instruction:
+Explain a cat in easy words.
+
+### Response:
+A cat is a quiet and playful animal that lives with humans.
+<END>
+
+### Instruction:
+What is a cat? Answer in one sentence.
+
+### Response:
+A cat is a small domesticated animal often kept as a pet.
+<END>
+
+### Instruction:
+Give 3 points about a cat.
+
+### Response:
+1. A cat is an animal.
+2. It is independent.
+3. It hunts small animals.
+<END>
+
+### Instruction:
+Describe a cat briefly.
+
+### Response:
+A cat is a small and playful pet animal.
+<END>
+
+### Instruction:
+Explain what a book is in simple words.
+
+### Response:
+A book is something we read that contains words and information.
+<END>
+
+### Instruction:
+Explain a book in easy words.
+
+### Response:
+A book is a collection of pages with writing in it.
+<END>
+
+### Instruction:
+What is a book? Answer in one sentence.
+
+### Response:
+A book is a set of written or printed pages.
+<END>
+
+### Instruction:
+Give 3 points about a book.
+
+### Response:
+1. A book has pages.
+2. It contains information.
+3. We read it.
+<END>
+
+### Instruction:
+Describe a book briefly.
+
+### Response:
+A book is something used for reading and learning.
+<END>
+
+### Instruction:
+Explain what a car is in simple words.
+
+### Response:
+A car is a vehicle that people use to travel.
+<END>
+
+### Instruction:
+Explain a car in easy words.
+
+### Response:
+A car is a machine that moves people from one place to another.
+<END>
+
+### Instruction:
+What is a car? Answer in one sentence.
+
+### Response:
+A car is a vehicle used for transportation.
+<END>
+
+### Instruction:
+Give 3 points about a car.
+
+### Response:
+1. A car is a vehicle.
+2. It runs on fuel or electricity.
+3. It is used for travel.
+<END>
+
+### Instruction:
+Describe a car briefly.
+
+### Response:
+A car is a common means of transport.
+<END>
