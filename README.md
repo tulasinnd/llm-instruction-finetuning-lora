@@ -9,6 +9,7 @@ Base models like GPT-2 are powerful at generating text but **struggle to follow 
 - Mix correct and incorrect information  
 - Mimic text patterns instead of reasoning  
 - Are sensitive to how prompts are phrased 
+
 This project aims to study these limitations and improve GPT-2’s behavior using **instruction fine-tuning**.
 
 ### Here are a few examples showing GPT-2’s behavior on simple instructions:
