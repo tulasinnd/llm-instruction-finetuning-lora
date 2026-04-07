@@ -9,7 +9,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # load tokenizer and model
 model_name = "gpt2"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-tokenizer.pad_token = tokenizer.eos_token
+tokenizer.pad_token = tokenizer.eos_token # whenever I batch variable-length sequences → I must pad them, pad token is none so use eos
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
 # apply LoRA to the model
@@ -21,7 +21,7 @@ lora_config = LoraConfig(
     bias="none",
     task_type="CAUSAL_LM")
 
-model = get_peft_model(model, lora_config)
+model = get_peft_model(model, lora_config) # Original weights are frozen and LoRA matrices are trainable 
 model.print_trainable_parameters()
 model.to(device)
 
@@ -34,7 +34,7 @@ dataloader = get_dataloader(data, tokenizer, batch_size=6)
 optimizer = AdamW(model.parameters(), lr=5e-5)
 model.train()
 
-for epoch in range(3):
+for epoch in range(10):
     print(f"\nEpoch {epoch+1}")
 
     for step, batch in enumerate(dataloader):
@@ -55,7 +55,7 @@ model.save_pretrained("lora-gpt2")
 # inference
 model.eval()
 prompt = """### Instruction:
-Explain what is the sun in simple words.
+What is water?
 
 ### Response:
 """

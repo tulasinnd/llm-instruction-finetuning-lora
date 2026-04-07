@@ -28,11 +28,13 @@ class InstructionDataset(Dataset):
 
         input_ids = enc["input_ids"].squeeze()
         attention_mask = enc["attention_mask"].squeeze()
+        labels = input_ids.clone()
+        labels[attention_mask == 0] = -100 # -100 ignored in loss so model stops learning from padding
 
         return {
             "input_ids": input_ids,
             "attention_mask": attention_mask,
-            "labels": input_ids.clone()
+            "labels": labels
         }
 
 # Helper function
