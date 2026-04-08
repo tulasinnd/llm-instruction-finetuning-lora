@@ -64,8 +64,9 @@ inputs = tokenizer(prompt, return_tensors="pt").to(device)
 with torch.no_grad():
     output = model.generate(
         **inputs,
-        max_length=100,
-        do_sample=False,
+        max_length=50,
+        do_sample=True,
+        temperature=0.5,
         eos_token_id=tokenizer.eos_token_id
     )
 
