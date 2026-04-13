@@ -1,4 +1,5 @@
 from data import get_dataloader
+import config
 import torch
 import json
 from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -7,17 +8,16 @@ from torch.optim import AdamW
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # load tokenizer and model
-model_name = "gpt2"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(config.model_name)
 tokenizer.pad_token = tokenizer.eos_token # whenever I batch variable-length sequences → I must pad them, pad token is none so use eos
-model = AutoModelForCausalLM.from_pretrained(model_name)
+model = AutoModelForCausalLM.from_pretrained(config.model_name)
 
 # apply LoRA to the model
 lora_config = LoraConfig(
-    r=8,
-    lora_alpha=32,
-    target_modules=["c_attn"],  # GPT-2 attention
-    lora_dropout=0.1,
+    r=config.lora_r,
+    lora_alpha=config.lora_alpha,
+    target_modules=config.lora_target_modules,  # GPT-2 attention
+    lora_dropout=config.lora_dropout,
     bias="none",
     task_type="CAUSAL_LM")
 
@@ -26,15 +26,15 @@ model.print_trainable_parameters()
 model.to(device)
 
 # sample data for training (replace later)
-with open("dataset/instruction_dataset.json", "r", encoding="utf-8") as f:
+with open(config.dataset_path, "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # training Loop
-dataloader = get_dataloader(data, tokenizer, batch_size=6)
-optimizer = AdamW(model.parameters(), lr=5e-5)
+dataloader = get_dataloader(data, tokenizer, config.batch_size)
+optimizer = AdamW(model.parameters(), lr=config.learning_rate)
 model.train()
 
-for epoch in range(10):
+for epoch in range(config.epochs):
     print(f"\nEpoch {epoch+1}")
 
     for step, batch in enumerate(dataloader):
@@ -50,7 +50,7 @@ for epoch in range(10):
         print(f"Step {step}, Loss: {loss.item()}")
 
 # save LoRA Weights
-model.save_pretrained("lora-gpt2")
+model.save_pretrained(config.output_dir)
 
 # inference
 model.eval()
@@ -64,9 +64,9 @@ inputs = tokenizer(prompt, return_tensors="pt").to(device)
 with torch.no_grad():
     output = model.generate(
         **inputs,
-        max_length=50,
+        max_length=config.max_length,
         do_sample=True,
-        temperature=0.5,
+        temperature=config.temperature,
         eos_token_id=tokenizer.eos_token_id
     )
 
