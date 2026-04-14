@@ -51,24 +51,3 @@ for epoch in range(config.epochs):
 
 # save LoRA Weights
 model.save_pretrained(config.output_dir)
-
-# inference
-model.eval()
-prompt = """### Instruction:
-What is water?
-
-### Response:
-"""
-
-inputs = tokenizer(prompt, return_tensors="pt").to(device)
-with torch.no_grad():
-    output = model.generate(
-        **inputs,
-        max_length=config.max_length,
-        do_sample=True,
-        temperature=config.temperature,
-        eos_token_id=tokenizer.eos_token_id
-    )
-
-print("\nGenerated Output:\n")
-print(tokenizer.decode(output[0], skip_special_tokens=True))
