@@ -46,11 +46,11 @@ while True:
     with torch.no_grad():
         output = model.generate(
             **inputs,
-            max_new_tokens=config.max_length,          # control response length
-            do_sample=True,
-            temperature=config.temperature,            # more focused output
-            top_p=config.top_p,                  # nucleus sampling
-            repetition_penalty=1.2,     # reduce repetition
+            max_new_tokens=config.max_length,           # control response length
+            do_sample=config.sampling,
+            temperature=config.temperature,             # more focused output
+            top_p=config.top_p,                         # nucleus sampling
+            repetition_penalty=1.2,                     # reduce repetition
             pad_token_id=tokenizer.eos_token_id,
             eos_token_id=tokenizer.eos_token_id
         )
@@ -60,6 +60,6 @@ while True:
 
     # Clean Response
     response = decoded.split("### Response:")[-1].strip()
-    response = response.split("\n")[0]  # keep only first line
+    response = response.split("\n")[0]                  # keep only first line
 
     print(f"Model: {response}\n")

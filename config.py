@@ -3,13 +3,14 @@ model_name = "gpt2"
 
 # TRAINING
 batch_size = 10
-epochs = 20
+epochs = 30
 learning_rate = 5e-5
 
 # GENERATION
 max_length = 50
 temperature = 0.5
 top_p = 0.9
+sampling= False # Since your task is factual
 
 # LORA
 lora_r = 8

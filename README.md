@@ -1,7 +1,7 @@
 # Instruction Fine-Tuning with LoRA
 
 ## Goal
-To transform a base language model into an instruction-following assistant using parameter-efficient fine-tuning (LoRA).
+To transform a base language model into an instruction-following assistant using parameter-efficient fine-tuning (LoRA) to create a mini question-answering model that produces short, precise, and factual responses without unnecessary words.
 
 ## Motivation
 Base models like GPT-2 are powerful at generating text but **struggle to follow instructions** reliably. They often:
