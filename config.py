@@ -10,7 +10,7 @@ learning_rate = 5e-5
 max_length = 50
 temperature = 0.5
 top_p = 0.9
-sampling= False # Since your task is factual
+sampling= True
 
 # LORA
 lora_r = 8
