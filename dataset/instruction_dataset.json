@@ -10,9 +10,12 @@
   {"instruction": "What is bacteria?", "response": "Microscopic living organisms found in various environments."},
 
   {"instruction": "What is the sun?", "response": "A star at the center of the solar system."},
-  {"instruction": "What is the moon?", "response": "Earth’s natural satellite that orbits the planet."},
+  {"instruction": "What is the moon?", "response": "A natural satellite that orbits the Earth."},
   {"instruction": "What is a river?", "response": "A natural flowing stream of water."},
   {"instruction": "What is a mountain?", "response": "A large natural elevation of the Earth's surface."},
+  {"instruction": "What is Earth?", "response": "The third planet from the Sun that supports life."},
+  {"instruction": "What is a planet?", "response": "A celestial body that orbits a star and is nearly round."},
+  {"instruction": "What is a star?", "response": "A self-luminous celestial body that produces light and heat."},
 
   {"instruction": "What is a car?", "response": "A vehicle used for transportation on roads."},
   {"instruction": "What is a computer?", "response": "An electronic device that processes and stores data."},
@@ -20,12 +23,39 @@
   {"instruction": "What is a bridge?", "response": "A structure built to span physical obstacles."},
 
   {"instruction": "What is energy?", "response": "The ability to do work or cause change."},
-  {"instruction": "What is force?", "response": "An interaction that changes an object's motion."},
+  {"instruction": "What is force?", "response": "A push or pull that can change an object's motion."},
   {"instruction": "What is an atom?", "response": "The smallest unit of matter that retains chemical properties."},
   {"instruction": "What is gravity?", "response": "A force that attracts objects with mass toward each other."},
+  {"instruction": "What is heat?", "response": "A form of energy that flows due to temperature difference."},
+  {"instruction": "What is light?", "response": "A form of energy that enables us to see objects."},
+  {"instruction": "What is electricity?", "response": "The flow of electric charge used to power devices."},
 
   {"instruction": "What is time?", "response": "A measure of the sequence of events."},
   {"instruction": "What is freedom?", "response": "The power to act without external control."},
   {"instruction": "What is intelligence?", "response": "The ability to learn, understand, and apply knowledge."},
-  {"instruction": "What is emotion?", "response": "A mental state associated with feelings and reactions."}
+  {"instruction": "What is emotion?", "response": "A mental state associated with feelings and reactions."},
+
+  {"instruction": "What is gold?", "response": "A precious yellow metal and chemical element with symbol Au."},
+  {"instruction": "What is iron?", "response": "A strong metal element commonly used in construction and tools."},
+  {"instruction": "What is plastic?", "response": "A synthetic material made from polymers used in manufacturing."},
+  {"instruction": "What is glass?", "response": "A hard, transparent material made by heating sand."},
+  {"instruction": "What is wood?", "response": "A natural material from trees used for building and furniture."},
+
+  {"instruction": "What is oxygen?", "response": "A chemical element and gas essential for breathing."},
+  {"instruction": "What is hydrogen?", "response": "The lightest chemical element and a component of water."},
+  {"instruction": "What is carbon?", "response": "A chemical element that forms the basis of organic life."},
+  {"instruction": "What is silver?", "response": "A shiny metal element used in jewelry and electronics."},
+  {"instruction": "What is steel?", "response": "A strong alloy made mainly of iron and carbon."},
+
+  {"instruction": "What is soil?", "response": "The top layer of Earth where plants grow."},
+  {"instruction": "What is sand?", "response": "A granular material made of small rock particles."},
+  {"instruction": "What is clay?", "response": "A fine-grained natural material used in pottery."},
+  {"instruction": "What is ice?", "response": "The solid form of water formed at low temperatures."},
+  {"instruction": "What is steam?", "response": "The gaseous form of water produced by heating."},
+
+  {"instruction": "What is a galaxy?", "response": "A large system of stars, gas, and dust in space."},
+  {"instruction": "What is a satellite?", "response": "An object that orbits a planet."},
+  {"instruction": "What is space?", "response": "The vast region beyond Earth containing stars and planets."},
+  {"instruction": "What is the atmosphere?", "response": "The layer of gases surrounding the Earth."},
+  {"instruction": "What is the universe?", "response": "All space, time, matter, and energy that exist."}
 ]
