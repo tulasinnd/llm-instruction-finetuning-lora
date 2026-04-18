@@ -44,16 +44,26 @@ while True:
 
     # Generate
     with torch.no_grad():
-        output = model.generate(
+        if config.sampling:
+            output = model.generate(
             **inputs,
-            max_new_tokens=config.max_length,           # control response length
-            do_sample=config.sampling,
-            temperature=config.temperature,             # more focused output
-            top_p=config.top_p,                         # nucleus sampling
-            repetition_penalty=1.2,                     # reduce repetition
+            max_new_tokens=config.max_length,  # control response length
+            do_sample=True,
+            temperature=config.temperature, # more focused output
+            top_p=config.top_p, # nucleus sampling
+            repetition_penalty=1.2, # reduce repetition
             pad_token_id=tokenizer.eos_token_id,
             eos_token_id=tokenizer.eos_token_id
         )
+        else: 
+            output = model.generate(
+                **inputs,
+                max_new_tokens=config.max_length,
+                do_sample=False,
+                repetition_penalty=1.2,
+                pad_token_id=tokenizer.eos_token_id,
+                eos_token_id=tokenizer.eos_token_id
+            )
 
     # Decode
     decoded = tokenizer.decode(output[0], skip_special_tokens=True)
