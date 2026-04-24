@@ -40,23 +40,19 @@ Instruction → Tokenizer → GPT-2 (Frozen)
 Prompt: what is sun?
 GPT-2 Output: what is sun? No, I'm not sure, but I'm sure it's a large sun," said the man,
 who asked not to be named...
-
-Prompt: Once upon a time
-GPT-2 Output: Once upon a time of great struggle, we did not understand...
 ```
 
 ### After Fine-Tuning (LoRA Model)
 
 ```text
-Ask: what is water?
-Model: A chemical compound of hydrogen and oxygen.
-
-Ask: what is earth?
-Model: The third planet from the Sun that supports life.
-
-Ask: what is the Moon?
-Model: A natural satellite that orbits the Earth.
+Ask: What is Sun?
+Model: A star that emits light.
 ```
+
+## What we achieved:
+The model now produces structured responses, follows instructions consistently, and attempts to answer queries even when its factual knowledge is limited.
+
+Note: The model still has limited factual knowledge. With larger datasets and training, this can improve—but at small scale, this behavior is expected.
 
 ## Tech Stack
 
@@ -88,3 +84,8 @@ python generate.py
 * LoRA enables efficient fine-tuning without updating full model weights
 * Prompt structure significantly affects model behavior
 
+## Future Work
+* Use larger and more diverse instruction datasets
+* Improve response accuracy and reasoning
+* Apply RLHF for better alignment
+* Extend with Retrieval-Augmented Generation (RAG) for factual grounding
